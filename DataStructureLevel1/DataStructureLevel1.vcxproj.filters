@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Array">
+      <UniqueIdentifier>{6e1c2e9e-3f2f-4d32-bcd8-d8bd6ce174af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Matrix">
+      <UniqueIdentifier>{df2cd97f-1738-4720-9cd1-87f83a5bc56d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stack">
+      <UniqueIdentifier>{d90ebb65-6be6-4846-9a18-47750b70ab75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vector">
+      <UniqueIdentifier>{2c6f9c64-1121-47f9-bd9d-8822596b92a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BigO">
+      <UniqueIdentifier>{67d71967-a388-438a-abb3-62f3c6bf3e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BinaryAsDataStructure">
+      <UniqueIdentifier>{922ca677-e4b4-4af8-bf22-5b87728ae141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ClassificationOfDataStructure">
+      <UniqueIdentifier>{ec2a0303-d9a7-45c4-a7f4-731f69295be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Queue">
+      <UniqueIdentifier>{3472da69-be5b-4769-a7f1-12fabd8e82d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SinglyLinkedList">
+      <UniqueIdentifier>{c8e42848-7afc-4736-a759-cfccc509f4bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DoublyLinkedList">
+      <UniqueIdentifier>{b6cc8d09-d68f-4803-aa89-19eef753d8d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CircularLinkedList">
+      <UniqueIdentifier>{a4429044-1a13-47ee-a97f-c3094c777f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADT">
+      <UniqueIdentifier>{f91c33bd-9feb-4873-bf2d-346f4632c7b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Map">
+      <UniqueIdentifier>{9d7ad3cb-35a6-46e8-b329-6e7ec455749e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Union">
+      <UniqueIdentifier>{2916ec0d-523d-4fcd-b505-719cf099c004}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DataStructureLevel1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Array.h">
+      <Filter>Header Files\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Header Files\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="BigO.h">
+      <Filter>Header Files\BigO</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Header Files\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Header Files\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="Union.h">
+      <Filter>Header Files\Union</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="SinglyLinkedList.h">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="DoublyLinkedList.h">
+      <Filter>Header Files\DoublyLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularDoublyLinkedList.h">
+      <Filter>Header Files\CircularLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularSinglyLinkedList.h">
+      <Filter>Header Files\CircularLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryAsDataStructure.h">
+      <Filter>Header Files\BinaryAsDataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassificationOfDataStructure.h">
+      <Filter>Header Files\ClassificationOfDataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="ADT.h">
+      <Filter>Header Files\ADT</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
