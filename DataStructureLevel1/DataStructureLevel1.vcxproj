@@ -137,6 +137,7 @@
     <ClInclude Include="CircularDoublyLinkedList.h" />
     <ClInclude Include="CircularSinglyLinkedList.h" />
     <ClInclude Include="ClassificationOfDataStructure.h" />
+    <ClInclude Include="clsArray.h" />
     <ClInclude Include="DoublyLinkedList.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="Matrix.h" />

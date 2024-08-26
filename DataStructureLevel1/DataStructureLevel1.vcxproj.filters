@@ -107,5 +107,8 @@
     <ClInclude Include="ADT.h">
       <Filter>Header Files\ADT</Filter>
     </ClInclude>
+    <ClInclude Include="clsArray.h">
+      <Filter>Header Files\Array</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
