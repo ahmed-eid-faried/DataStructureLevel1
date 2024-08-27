@@ -1,13 +1,15 @@
 #pragma once
 #include <iostream>
 using namespace std;
+template <class T>
 class Node {
 public:
-	int value;
+	T value;
 	Node* next;
 	Node* prev;
 };
-void PrintDoublyLinkedList(Node*& head) {
+
+void PrintDoublyLinkedList(Node<int>*& head) {
 	while (head != NULL) {
 		cout << head->value << endl;
 		head = head->next;
@@ -19,16 +21,16 @@ void PrintDoublyLinkedList(Node*& head) {
 void DoublyLinkedListImplementation()
 
 {
-	Node* head;
+	Node<int>* head;
 
-	Node* Node1 = NULL;
-	Node* Node2 = NULL;
-	Node* Node3 = NULL;
+	Node<int>* Node1 = NULL;
+	Node<int>* Node2 = NULL;
+	Node<int>* Node3 = NULL;
 
 	// allocate 3 nodes in the heap
-	Node1 = new Node();
-	Node2 = new Node();
-	Node3 = new Node();
+	Node1 = new Node<int>();
+	Node2 = new Node<int>();
+	Node3 = new Node<int>();
 
 	Node1->value = 1;
 	Node1->prev = NULL;
