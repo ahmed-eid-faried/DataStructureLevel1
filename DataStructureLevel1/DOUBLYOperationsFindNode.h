@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include "Doubly Linked List Insert At Beginning.h"
+
 using namespace std;
 Node<int>* Find(Node<int>* head, int Value) {
 	while (head != NULL) {
@@ -23,7 +24,6 @@ void DOUBLYOperationsFindNode()
 
 	cout << "\nLinked List Contenet:\n";
 	PrintList(head);
-
 
 	Node<int>* N1 = Find(head, 2);
 

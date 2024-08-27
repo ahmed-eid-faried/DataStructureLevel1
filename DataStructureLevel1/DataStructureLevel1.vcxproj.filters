@@ -136,10 +136,10 @@
     <Text Include="DOUBLY   Operations - Insert After (2).txt">
       <Filter>Header Files\DoublyLinkedList</Filter>
     </Text>
-    <Text Include="DOUBLY   Operations - Insert After.txt">
+    <Text Include="DOUBLYOperationsInsertAfter.h">
       <Filter>Header Files\DoublyLinkedList</Filter>
     </Text>
-    <Text Include="DOUBLY  Operations - Insert at End.txt">
+    <Text Include="DOUBLYOperationsInsertAtEnd.h">
       <Filter>Header Files\DoublyLinkedList</Filter>
     </Text>
     <Text Include="Doubly Linked List Implementation.h">
