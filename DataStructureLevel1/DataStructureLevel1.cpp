@@ -3,6 +3,7 @@
 #include "Matrix.h"
 #include "Stack.h"
 #include "Union.h"
+#include "Queue.h"
 
 int main()
 {
@@ -22,12 +23,12 @@ int main()
     //MatrixEx();
     //StackEx();
     //VectorEx();
-    //QueueEx();
+    QueueEx();
     //SinglyLinkedListEx();
     //DoublyLinkedListEx();
     //CircularLinkedListEx();
     //ADTEx();
     //MapEx();
-    UnionEx();
+    //UnionEx();
 }
  

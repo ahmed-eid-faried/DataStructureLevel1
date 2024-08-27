@@ -169,13 +169,13 @@
     <Text Include="union.txt">
       <Filter>Header Files\Union</Filter>
     </Text>
-    <Text Include="Queue swap.txt">
+    <Text Include="Queue swap.h">
       <Filter>Header Files\Queue</Filter>
     </Text>
     <Text Include="Singly Linked List Implementation.txt">
       <Filter>Header Files\SinglyLinkedList</Filter>
     </Text>
-    <Text Include="STL Queue.txt">
+    <Text Include="STL Queue.h">
       <Filter>Header Files\Queue</Filter>
     </Text>
     <Text Include="STL Stack.h">

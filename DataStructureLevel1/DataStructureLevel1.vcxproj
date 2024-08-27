@@ -165,10 +165,10 @@
     <Text Include="Operations - Insert At Beginning.txt" />
     <Text Include="Operations - Insert At End.txt" />
     <Text Include="Operations -Insert At Beginning.txt" />
-    <Text Include="Queue swap.txt" />
+    <Text Include="Queue swap.h" />
     <Text Include="Singly Linked List Implementation.txt" />
     <Text Include="Stack Swap.h" />
-    <Text Include="STL Queue.txt" />
+    <Text Include="STL Queue.h" />
     <Text Include="STL Stack.h" />
     <Text Include="union.txt" />
   </ItemGroup>
