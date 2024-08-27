@@ -16,6 +16,7 @@ void FindByKey(string studentName, map<string, int> studentGrades) {
 		cout << "Grade not found for " << studentName << endl;
 	}
 }
+
 void MapEx() {
 	map<string, int> studentGrades;
 	studentGrades["AHMED"] = 100;
@@ -28,8 +29,9 @@ void MapEx() {
 	string  studentName = "MADY";
 	FindByKey(studentName, studentGrades);
 
-	cout << "Size Of Map: " << studentName.size() << endl;
 	cout << "===================================" << endl;
+	cout << "Size Of Map: " << studentGrades.size() << endl;
+ 
 
 
 }
