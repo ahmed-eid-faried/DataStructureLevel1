@@ -22,9 +22,6 @@
     <Filter Include="Header Files\Stack">
       <UniqueIdentifier>{d90ebb65-6be6-4846-9a18-47750b70ab75}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Vector">
-      <UniqueIdentifier>{2c6f9c64-1121-47f9-bd9d-8822596b92a1}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\BigO">
       <UniqueIdentifier>{67d71967-a388-438a-abb3-62f3c6bf3e29}</UniqueIdentifier>
     </Filter>
@@ -54,6 +51,9 @@
     </Filter>
     <Filter Include="Header Files\Union">
       <UniqueIdentifier>{2916ec0d-523d-4fcd-b505-719cf099c004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vector">
+      <UniqueIdentifier>{2c6f9c64-1121-47f9-bd9d-8822596b92a1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -110,5 +110,177 @@
     <ClInclude Include="clsArray.h">
       <Filter>Header Files\Array</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="DELETE NODE.txt">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </Text>
+    <Text Include="Delete First Node.txt">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </Text>
+    <Text Include="Delete Last Node.txt">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </Text>
+    <Text Include="DOUBLY   Operations - Delete Node.txt">
+      <Filter>Header Files\DoublyLinkedList</Filter>
+    </Text>
+    <Text Include="DOUBLY   Operations - Find Node.txt">
+      <Filter>Header Files\DoublyLinkedList</Filter>
+    </Text>
+    <Text Include="DOUBLY   Operations - Insert After (2).txt">
+      <Filter>Header Files\DoublyLinkedList</Filter>
+    </Text>
+    <Text Include="DOUBLY   Operations - Insert After.txt">
+      <Filter>Header Files\DoublyLinkedList</Filter>
+    </Text>
+    <Text Include="DOUBLY  Operations - Insert at End.txt">
+      <Filter>Header Files\DoublyLinkedList</Filter>
+    </Text>
+    <Text Include="Doubly Linked List Implementation.txt">
+      <Filter>Header Files\DoublyLinkedList</Filter>
+    </Text>
+    <Text Include="DOUBLY Operations - Delete First Node.txt">
+      <Filter>Header Files\DoublyLinkedList</Filter>
+    </Text>
+    <Text Include="DOUBLY Operations - Delete Last Node.txt">
+      <Filter>Header Files\DoublyLinkedList</Filter>
+    </Text>
+    <Text Include="Map.txt">
+      <Filter>Header Files\Map</Filter>
+    </Text>
+    <Text Include="Operations - Find.txt">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </Text>
+    <Text Include="Operations - Insert After.txt">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </Text>
+    <Text Include="Operations - Insert At Beginning.txt">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </Text>
+    <Text Include="Operations - Insert At End.txt">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </Text>
+    <Text Include="Operations -Insert At Beginning.txt">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </Text>
+    <Text Include="Stack Swap.h">
+      <Filter>Header Files\Stack</Filter>
+    </Text>
+    <Text Include="union.txt">
+      <Filter>Header Files\Union</Filter>
+    </Text>
+    <Text Include="Queue swap.txt">
+      <Filter>Header Files\Queue</Filter>
+    </Text>
+    <Text Include="Singly Linked List Implementation.txt">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </Text>
+    <Text Include="STL Queue.txt">
+      <Filter>Header Files\Queue</Filter>
+    </Text>
+    <Text Include="STL Stack.h">
+      <Filter>Header Files\Stack</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ADT.pdf">
+      <Filter>Header Files\ADT</Filter>
+    </None>
+    <None Include="Array Data Structure.pdf">
+      <Filter>Header Files\Array</Filter>
+    </None>
+    <None Include="Big O Comparison and Conclusion.pdf">
+      <Filter>Header Files\BigO</Filter>
+    </None>
+    <None Include="Big O(1) Constant Time Function.pdf">
+      <Filter>Header Files\BigO</Filter>
+    </None>
+    <None Include="Big O(Log n) Logarithmic Time Function.pdf">
+      <Filter>Header Files\BigO</Filter>
+    </None>
+    <None Include="Big O(n-2) Quadratic Time Function.pdf">
+      <Filter>Header Files\BigO</Filter>
+    </None>
+    <None Include="Binary Data Structure.pdf">
+      <Filter>Header Files\BinaryAsDataStructure</Filter>
+    </None>
+    <None Include="Circular Linked List.pdf">
+      <Filter>Header Files\CircularLinkedList</Filter>
+    </None>
+    <None Include="Classifications Of Data Structures.pdf">
+      <Filter>Header Files\ClassificationOfDataStructure</Filter>
+    </None>
+    <None Include="Delete First Node.pdf">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </None>
+    <None Include="Delete Last Node.pdf">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </None>
+    <None Include="Delete Node.pdf">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </None>
+    <None Include="Doubly Linked List Insert At Beginning.pdf">
+      <Filter>Header Files\DoublyLinkedList</Filter>
+    </None>
+    <None Include="Doubly Linked List.pdf">
+      <Filter>Header Files\DoublyLinkedList</Filter>
+    </None>
+    <None Include="O(n) Linear Time Function.pdf">
+      <Filter>Header Files\BigO</Filter>
+    </None>
+    <None Include="Matrix Data Structure (1).pdf">
+      <Filter>Header Files\Matrix</Filter>
+    </None>
+    <None Include="Matrix Data Structure.pdf">
+      <Filter>Header Files\Matrix</Filter>
+    </None>
+    <None Include="Map.pdf">
+      <Filter>Header Files\Map</Filter>
+    </None>
+    <None Include="Map Example.rar">
+      <Filter>Header Files\Map</Filter>
+    </None>
+    <None Include="Insert After.pdf">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </None>
+    <None Include="Insert At End.pdf">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </None>
+    <None Include="Linked List (Singly).pdf">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </None>
+    <None Include="Operatins Insert At End.pdf">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </None>
+    <None Include="Operations - Delete First Node.pdf">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </None>
+    <None Include="Operations - Delete Last Node.pdf">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </None>
+    <None Include="Operations - Insert After.pdf">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </None>
+    <None Include="Operations Delete Node.pdf">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </None>
+    <None Include="Time &amp; Space Complexity - Big O Notation.pdf">
+      <Filter>Header Files\BigO</Filter>
+    </None>
+    <None Include="DS vs DB.pdf">
+      <Filter>Header Files\ClassificationOfDataStructure</Filter>
+    </None>
+    <None Include="Union.pdf">
+      <Filter>Header Files\Union</Filter>
+    </None>
+    <None Include="Things That Affect Program Speed.pdf">
+      <Filter>Header Files\ADT</Filter>
+    </None>
+    <None Include="What is Data Structures and Why.pdf">
+      <Filter>Header Files\ADT</Filter>
+    </None>
+    <None Include="What is Stack Data Structure.pdf">
+      <Filter>Header Files\Stack</Filter>
+    </None>
   </ItemGroup>
 </Project>

@@ -1,5 +1,7 @@
 #include <iostream>
 #include "Array.h"
+#include "Matrix.h"
+#include "Stack.h"
 
 int main()
 {
@@ -15,9 +17,9 @@ int main()
     //BigOofClobberedN();
     //CalculationBigO();
     //BinaryAsDataStructure();
-    ArrayEx();
+    //ArrayEx();
     //MatrixEx();
-    //StackEx();
+    StackEx();
     //VectorEx();
     //QueueEx();
     //SinglyLinkedListEx();

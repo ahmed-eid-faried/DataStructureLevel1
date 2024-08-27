@@ -147,6 +147,66 @@
     <ClInclude Include="Union.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Delete First Node.txt" />
+    <Text Include="Delete Last Node.txt" />
+    <Text Include="DELETE NODE.txt" />
+    <Text Include="DOUBLY   Operations - Delete Node.txt" />
+    <Text Include="DOUBLY   Operations - Find Node.txt" />
+    <Text Include="DOUBLY   Operations - Insert After (2).txt" />
+    <Text Include="DOUBLY   Operations - Insert After.txt" />
+    <Text Include="DOUBLY  Operations - Insert at End.txt" />
+    <Text Include="Doubly Linked List Implementation.txt" />
+    <Text Include="DOUBLY Operations - Delete First Node.txt" />
+    <Text Include="DOUBLY Operations - Delete Last Node.txt" />
+    <Text Include="Map.txt" />
+    <Text Include="Operations - Find.txt" />
+    <Text Include="Operations - Insert After.txt" />
+    <Text Include="Operations - Insert At Beginning.txt" />
+    <Text Include="Operations - Insert At End.txt" />
+    <Text Include="Operations -Insert At Beginning.txt" />
+    <Text Include="Queue swap.txt" />
+    <Text Include="Singly Linked List Implementation.txt" />
+    <Text Include="Stack Swap.h" />
+    <Text Include="STL Queue.txt" />
+    <Text Include="STL Stack.h" />
+    <Text Include="union.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ADT.pdf" />
+    <None Include="Array Data Structure.pdf" />
+    <None Include="Big O Comparison and Conclusion.pdf" />
+    <None Include="Big O(1) Constant Time Function.pdf" />
+    <None Include="Big O(Log n) Logarithmic Time Function.pdf" />
+    <None Include="Big O(n-2) Quadratic Time Function.pdf" />
+    <None Include="Binary Data Structure.pdf" />
+    <None Include="Circular Linked List.pdf" />
+    <None Include="Classifications Of Data Structures.pdf" />
+    <None Include="Delete First Node.pdf" />
+    <None Include="Delete Last Node.pdf" />
+    <None Include="Delete Node.pdf" />
+    <None Include="Doubly Linked List Insert At Beginning.pdf" />
+    <None Include="Doubly Linked List.pdf" />
+    <None Include="DS vs DB.pdf" />
+    <None Include="Insert After.pdf" />
+    <None Include="Insert At End.pdf" />
+    <None Include="Linked List (Singly).pdf" />
+    <None Include="Map Example.rar" />
+    <None Include="Map.pdf" />
+    <None Include="Matrix Data Structure (1).pdf" />
+    <None Include="Matrix Data Structure.pdf" />
+    <None Include="O(n) Linear Time Function.pdf" />
+    <None Include="Operatins Insert At End.pdf" />
+    <None Include="Operations - Delete First Node.pdf" />
+    <None Include="Operations - Delete Last Node.pdf" />
+    <None Include="Operations - Insert After.pdf" />
+    <None Include="Operations Delete Node.pdf" />
+    <None Include="Things That Affect Program Speed.pdf" />
+    <None Include="Time &amp; Space Complexity - Big O Notation.pdf" />
+    <None Include="Union.pdf" />
+    <None Include="What is Data Structures and Why.pdf" />
+    <None Include="What is Stack Data Structure.pdf" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

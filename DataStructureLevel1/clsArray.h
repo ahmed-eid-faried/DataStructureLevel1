@@ -31,8 +31,7 @@ public:
 		_size = sizeof...(args);
 		_capacity = intiCapacity;
 		_data = new T[_capacity];
-		int index = 0;
-		AddElements(index, args...);
+		AddElements(args...);
 	}
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////
 	//// Copy Constructor
@@ -92,6 +91,15 @@ public:
 		}
 		return -1;
 	}
+	void Print() {
+		cout << "==>> ";
+		for (int i = 0; i < _size; i++)
+		{
+			cout << _data[i];
+			if (i != _size - 1)	cout << " - ";
+		}
+		cout << endl;
+	}
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////
 	//AddElementAtLast
 	void push(const T& element) {
@@ -108,7 +116,7 @@ public:
 		++_size;
 	}
 	template <typename... Args>
-	void AddElements(int index, Args... args) {
+	void AddElements(Args... args) {
 		T elements[] = { args... };
 		for (int i = 0; i < sizeof...(args); i++) {
 			push(elements[i]);
