@@ -17,6 +17,4 @@ void STLStackEx()
 		cout << stackNumbers.top() << endl;
 		stackNumbers.pop();
 	}
-
-
 };

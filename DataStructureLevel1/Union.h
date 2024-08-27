@@ -9,14 +9,12 @@ union MyUnion {
 };
 
 void UnionEx() {
-	MyUnion myUnion;
 
-	myUnion.intValue = 42;
-	cout << "Integer value: " << myUnion.intValue << endl;
-
-	myUnion.floatValue = 3.14f;
-	cout << "Float value: " << myUnion.floatValue << endl;
-
-	myUnion.charValue = 'A';
-	cout << "Char value: " << myUnion.charValue << endl;
+	MyUnion myUnion1;
+	myUnion1.intValue = 33;
+	cout << "Integer: " << myUnion1.intValue << endl;
+	myUnion1.floatValue = 33.33333f;
+	cout << "Integer: " << myUnion1.floatValue << endl;
+	myUnion1.charValue = 'x';
+	cout << "Integer: " << myUnion1.charValue << endl;
 }

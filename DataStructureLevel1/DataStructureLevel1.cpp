@@ -2,6 +2,7 @@
 #include "Array.h"
 #include "Matrix.h"
 #include "Stack.h"
+#include "Union.h"
 
 int main()
 {
@@ -19,7 +20,7 @@ int main()
     //BinaryAsDataStructure();
     //ArrayEx();
     //MatrixEx();
-    StackEx();
+    //StackEx();
     //VectorEx();
     //QueueEx();
     //SinglyLinkedListEx();
@@ -27,6 +28,6 @@ int main()
     //CircularLinkedListEx();
     //ADTEx();
     //MapEx();
-    //UnionEx();
+    UnionEx();
 }
  
