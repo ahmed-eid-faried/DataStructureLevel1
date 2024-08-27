@@ -130,7 +130,7 @@
     <Text Include="DOUBLY   Operations - Delete Node.txt">
       <Filter>Header Files\DoublyLinkedList</Filter>
     </Text>
-    <Text Include="DOUBLY   Operations - Find Node.txt">
+    <Text Include="DOUBLY   Operations - Find Node.h">
       <Filter>Header Files\DoublyLinkedList</Filter>
     </Text>
     <Text Include="DOUBLY   Operations - Insert After (2).txt">
@@ -186,6 +186,9 @@
     </Text>
     <Text Include="STL Stack.h">
       <Filter>Header Files\Stack</Filter>
+    </Text>
+    <Text Include="Doubly Linked List Insert At Beginning.h">
+      <Filter>Header Files\DoublyLinkedList</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>

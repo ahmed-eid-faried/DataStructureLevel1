@@ -1,36 +1,37 @@
 #pragma once
 #include <iostream>
 using namespace std;
-template <class T>
-class Node {
-public:
-	T value;
-	Node* next;
-	Node* prev;
-};
+namespace sp {
+	template <class T>
+	class Node {
+	public:
+		T value;
+		Node* next;
+		Node* prev;
+	};
 
-void PrintDoublyLinkedList(Node<int>*& head) {
-	while (head != NULL) {
-		cout << head->value << endl;
-		head = head->next;
+	void PrintDoublyLinkedList(sp::Node<int>*& head) {
+		while (head != NULL) {
+			cout << head->value << endl;
+			head = head->next;
+		}
 	}
+
 }
-
-
 
 void DoublyLinkedListImplementation()
 
 {
-	Node<int>* head;
+	sp::Node<int>* head;
 
-	Node<int>* Node1 = NULL;
-	Node<int>* Node2 = NULL;
-	Node<int>* Node3 = NULL;
+	sp::Node<int>* Node1 = NULL;
+	sp::Node<int>* Node2 = NULL;
+	sp::Node<int>* Node3 = NULL;
 
 	// allocate 3 nodes in the heap
-	Node1 = new Node<int>();
-	Node2 = new Node<int>();
-	Node3 = new Node<int>();
+	Node1 = new sp::Node<int>();
+	Node2 = new sp::Node<int>();
+	Node3 = new sp::Node<int>();
 
 	Node1->value = 1;
 	Node1->prev = NULL;
@@ -45,6 +46,6 @@ void DoublyLinkedListImplementation()
 	Node3->next = NULL;
 
 	head = Node1;
-	PrintDoublyLinkedList(head);
+	sp::PrintDoublyLinkedList(head);
 }
 
