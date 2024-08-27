@@ -43,6 +43,8 @@ void DoublyLinkedListImplementation()
 	Node3->value = 3;
 	Node3->prev = Node2;
 	Node3->next = NULL;
+
 	head = Node1;
+	PrintDoublyLinkedList(head);
 }
 

@@ -5,6 +5,7 @@
 #include "Union.h"
 #include "Queue.h"
 #include "Map.h"
+#include "DoublyLinkedList.h"
 
 int main()
 {
@@ -26,10 +27,10 @@ int main()
     //VectorEx();
     //QueueEx();
     //SinglyLinkedListEx();
-    //DoublyLinkedListEx();
+    DoublyLinkedListEx();
     //CircularLinkedListEx();
     //ADTEx();
-    MapEx();
+    //MapEx();
     //UnionEx();
 }
  
