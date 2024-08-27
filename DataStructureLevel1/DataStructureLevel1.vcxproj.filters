@@ -228,9 +228,6 @@
     <None Include="O(n) Linear Time Function.pdf">
       <Filter>Header Files\BigO</Filter>
     </None>
-    <None Include="Matrix Data Structure (1).pdf">
-      <Filter>Header Files\Matrix</Filter>
-    </None>
     <None Include="Matrix Data Structure.pdf">
       <Filter>Header Files\Matrix</Filter>
     </None>

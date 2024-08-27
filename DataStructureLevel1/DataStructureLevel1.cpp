@@ -4,6 +4,7 @@
 #include "Stack.h"
 #include "Union.h"
 #include "Queue.h"
+#include "Map.h"
 
 int main()
 {
@@ -23,12 +24,12 @@ int main()
     //MatrixEx();
     //StackEx();
     //VectorEx();
-    QueueEx();
+    //QueueEx();
     //SinglyLinkedListEx();
     //DoublyLinkedListEx();
     //CircularLinkedListEx();
     //ADTEx();
-    //MapEx();
+    MapEx();
     //UnionEx();
 }
  
