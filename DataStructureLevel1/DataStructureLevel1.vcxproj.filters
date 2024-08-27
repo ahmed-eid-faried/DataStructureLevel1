@@ -110,6 +110,12 @@
     <ClInclude Include="clsArray.h">
       <Filter>Header Files\Array</Filter>
     </ClInclude>
+    <ClInclude Include="clsSinglyLinkedList.h">
+      <Filter>Header Files\SinglyLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDbLinkedList.h">
+      <Filter>Header Files\DoublyLinkedList</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="DELETE NODE.txt">
@@ -136,7 +142,7 @@
     <Text Include="DOUBLY  Operations - Insert at End.txt">
       <Filter>Header Files\DoublyLinkedList</Filter>
     </Text>
-    <Text Include="Doubly Linked List Implementation.txt">
+    <Text Include="Doubly Linked List Implementation.h">
       <Filter>Header Files\DoublyLinkedList</Filter>
     </Text>
     <Text Include="DOUBLY Operations - Delete First Node.txt">
