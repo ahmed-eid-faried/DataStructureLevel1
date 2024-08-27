@@ -130,7 +130,7 @@
     <Text Include="DOUBLY   Operations - Delete Node.txt">
       <Filter>Header Files\DoublyLinkedList</Filter>
     </Text>
-    <Text Include="DOUBLY   Operations - Find Node.h">
+    <Text Include="DOUBLYOperationsFindNode.h">
       <Filter>Header Files\DoublyLinkedList</Filter>
     </Text>
     <Text Include="DOUBLY   Operations - Insert After (2).txt">

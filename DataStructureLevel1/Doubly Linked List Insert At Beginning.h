@@ -51,9 +51,6 @@ void PrintList(Node<int>* head) {
 	}
 	cout << "NULL ";
 }
-
-
-
 void DoublyLinkedListInsertAtBeginning()
 {
 	Node<int>* head = NULL;
