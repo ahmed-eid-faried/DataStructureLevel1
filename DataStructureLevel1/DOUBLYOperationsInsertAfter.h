@@ -31,13 +31,13 @@ void DOUBLYOperationsInsertAfter()
 
 	cout << "\nLinked List Contenet:\n";
 	PrintList(head);
-	PrintListDetails(head);
-
-	Node<int>* N1 = Find(head, 2);
+ 	PrintListDetails(head);
+ 	Node<int>* N1 = Find(head, 2);
 
 	InsertAfter(N1, 500);
 
 	cout << "\n\n\nLinked List Contenet after InsertAfter:\n";
 	PrintList(head);
-	PrintListDetails(head);
+ 	PrintListDetails(head);
+
 }

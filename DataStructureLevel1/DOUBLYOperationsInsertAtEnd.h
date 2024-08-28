@@ -1,25 +1,8 @@
 #pragma once
 #include <iostream>
 #include "Doubly Linked List Insert At Beginning.h"
+#include "DOUBLYOperationsFindNode.h"
 using namespace std;
-
-
-
-void InsertAfter(Node<int>* current, int value) {
-	//1 - Create a new node with the desired value.
-	//2-Set the next pointer of the new node to the next node of the current node.
-	//3-Set the previous pointer of the new node to the current node.
-	//4-Set the next pointer of the current node to the new node.
-	//5-Set the previous pointer of the next node to the new node(if it exists).
-	Node<int>* newNode = new Node<int>();
-	newNode->value = value;
-	newNode->next = current->next;
-	newNode->prev = current;
-
-	current->next = newNode;
-	if (current->next != NULL)	current->next->prev = newNode;
-}
-
 
 void InsertAtEnd(Node<int>* head, int value) {
 	//1-Create a new node with the desired value.
@@ -29,8 +12,9 @@ void InsertAtEnd(Node<int>* head, int value) {
 	Node<int>* newNode = new Node<int>();
 	newNode->value = value;
 	newNode->next = NULL;
+	//4-Set the previous pointer of the new node to the last node.
 	if (head == NULL) {
-		newNode->prev = NULL;
+		newNode->prev = head;
 		head = newNode;
 	}
 	else {

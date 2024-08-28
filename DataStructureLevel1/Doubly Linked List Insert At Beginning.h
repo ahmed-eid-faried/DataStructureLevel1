@@ -41,6 +41,8 @@ void PrintListDetails(Node<int>* head) {
 		head = head->next;
 		cout << endl;
 	}
+	cout << endl;
+
 }
 // Print the linked list
 void PrintList(Node<int>* head) {
@@ -50,6 +52,8 @@ void PrintList(Node<int>* head) {
 		head = head->next;
 	}
 	cout << "NULL ";
+	cout << endl;
+
 }
 void DoublyLinkedListInsertAtBeginning()
 {
