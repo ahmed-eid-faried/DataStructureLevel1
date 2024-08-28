@@ -127,13 +127,10 @@
     <Text Include="Delete Last Node.txt">
       <Filter>Header Files\SinglyLinkedList</Filter>
     </Text>
-    <Text Include="DOUBLY   Operations - Delete Node.txt">
+    <Text Include="DOUBLYOperationsDeleteNode.h">
       <Filter>Header Files\DoublyLinkedList</Filter>
     </Text>
     <Text Include="DOUBLYOperationsFindNode.h">
-      <Filter>Header Files\DoublyLinkedList</Filter>
-    </Text>
-    <Text Include="DOUBLY   Operations - Insert After (2).txt">
       <Filter>Header Files\DoublyLinkedList</Filter>
     </Text>
     <Text Include="DOUBLYOperationsInsertAfter.h">

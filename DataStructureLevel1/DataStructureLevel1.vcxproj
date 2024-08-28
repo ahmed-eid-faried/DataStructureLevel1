@@ -153,9 +153,8 @@
     <Text Include="Delete First Node.txt" />
     <Text Include="Delete Last Node.txt" />
     <Text Include="DELETE NODE.txt" />
-    <Text Include="DOUBLY   Operations - Delete Node.txt" />
+    <Text Include="DOUBLYOperationsDeleteNode.h" />
     <Text Include="DOUBLYOperationsFindNode.h" />
-    <Text Include="DOUBLY   Operations - Insert After (2).txt" />
     <Text Include="DOUBLYOperationsInsertAfter.h" />
     <Text Include="DOUBLYOperationsInsertAtEnd.h" />
     <Text Include="Doubly Linked List Implementation.h" />
