@@ -5,13 +5,16 @@
 #include "DOUBLYOperationsFindNode.h"
 #include "DOUBLYOperationsInsertAfter.h"
 #include "DOUBLYOperationsInsertAtEnd.h"
+#include "DOUBLYOperationsDeleteNode.h"
 using namespace std;
- 
+
 
 void DoublyLinkedListEx() {
 	//DoublyLinkedListImplementation();
 	//DoublyLinkedListInsertAtBeginning();
 	//DOUBLYOperationsFindNode();
 	//DOUBLYOperationsInsertAfter();
-	DOUBLYOperationsInsertAtEnd();
+	//DOUBLYOperationsInsertAtEnd();
+	DOUBLYOperationsDeleteNode();
+
 }

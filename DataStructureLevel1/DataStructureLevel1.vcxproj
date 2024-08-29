@@ -160,7 +160,7 @@
     <Text Include="Doubly Linked List Implementation.h" />
     <Text Include="Doubly Linked List Insert At Beginning.h" />
     <Text Include="DOUBLY Operations - Delete First Node.txt" />
-    <Text Include="DOUBLY Operations - Delete Last Node.txt" />
+    <Text Include="DOUBLYOperationsDeleteLastNode.h" />
     <Text Include="Map.txt" />
     <Text Include="Operations - Find.txt" />
     <Text Include="Operations - Insert After.txt" />
