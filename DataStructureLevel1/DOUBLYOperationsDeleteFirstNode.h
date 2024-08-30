@@ -11,8 +11,7 @@ void DeleteFirstNode(Node<int>*& head) {
 	if (head == NULL)return;
 	Node<int>* temp = head;
 	head = head->next;
-	if (head->next == NULL)head = NULL;
-	if (head->next != NULL)	head->next->prev = head;
+	if (head != NULL)head->prev = NULL;
 	delete temp;
 }
 
